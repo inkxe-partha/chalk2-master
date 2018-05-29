@@ -1,0 +1,65 @@
+{
+	"charteredFlights": [
+		{
+			"id": 1,
+			"name": "Turboprop",
+			"seats": 7,
+			"price": 14800,
+			"date": "2018-05-29",
+			"estimatedPrice": 0,
+			"orgCode": "MIA",
+			"desCode": "JFK",
+			"orgAirport": "Miami International Airport",
+			"desAirport": "John F. Kennedy International Airport",
+			"depLat": 25.795865,
+			"depLon": -80.28704570000002,
+			"aircraftThumbnail": "https://brs-apartments.s3.amazonaws.com/blade/production/charter-estimate-rules/1508197808.jpeg",
+			"tax":55
+		},
+		{
+			"id": 2,
+			"name": "Light Jet",
+			"seats": 7,
+			"price": 15700,
+			"date": "2018-05-29",
+			"estimatedPrice": 15700,
+			"orgCode": "MIA",
+			"desCode": "JFK",
+			"orgAirport": "Miami International Airport",
+			"desAirport": "John F. Kennedy International Airport",
+			"depLat": 25.795865,
+			"depLon": -80.28704570000002,
+			"aircraftThumbnail": "https://brs-apartments.s3.amazonaws.com/blade/production/charter-estimate-rules/1508196913.jpeg",
+			"tax":70
+		}
+	],
+	"userFlightHistory":[
+		{	
+			"userId":4,
+			"departure": "06:00 AM",
+			"arrival": "08:56 AM",
+			"date": "24th May",
+			"aircraftThumbnail": "http://img.aeroexpo.online/images_ar/photo-g/171523-10551742.jpg",
+			"seats": 3,
+			"price": 500,
+			"aircraftInfo": "Turbo Prop",
+			"orgCode": "MIA",
+			"desCode": "JFK",
+			"orgCity": "Miami",
+			"desCity": "New York",
+			"orgAirport": "Miami International Airport",
+			"desAirport": "John F. Kennedy International Airport",
+			"total": 1675
+		}
+	],
+	"userYachtHistory":[
+		{
+			"userId":4,
+			"name": "120 TECNOMAR",
+			"thumbnail": "https://image.yachtcharterfleet.com/charter-CLOUD-9/CLOUD-9-1.jpg?image_id=519748&k=3f0e&w=973&h=470&q=95&o=wc",
+			"location": "Miami FL",
+			"total": 1200,
+			"Guests": 10
+		}
+	]
+}

@@ -33,6 +33,64 @@
 			"tax":70
 		}
 	],
+	"optionalChartedFlight":[
+		{
+			"id": 1,
+			"name": "Light Jet",
+			"seats": 7,
+			"price": 15700,
+			"date": "2018-06-30",
+			"estimatedPrice": 15700,
+			"orgCode": "CTC",
+			"desCode": "RKL",
+			"orgCity": "Cuttack",
+		   	"desCity": "Rourkela",
+			"orgAirport": "Barabati Airport",
+			"desAirport": "Rourkela Airport",
+			"depLat": 25.795865,
+			"depLon": -80.28704570000002,
+			"aircraftThumbnail": "https://brs-apartments.s3.amazonaws.com/blade/production/charter-estimate-rules/1508196913.jpeg",
+			"tax":70
+			
+		    
+		},
+		{
+			"id": 2,
+			"name": "Turboprop",
+			"seats": 7,
+			"price": 14800,
+			"date": "2018-06-29",
+			"estimatedPrice": 0,
+			"orgCode": "RLK",
+			"desCode": "BLSR",
+			"orgCity": "Rourkela",
+			"desCity": "Balasore",
+			"orgAirport": "Rourkela Airport",
+			"desAirport": "FakirMohan Airport",
+			"depLat": 25.795865,
+			"depLon": -80.28704570000002,
+			"aircraftThumbnail": "https://brs-apartments.s3.amazonaws.com/blade/production/charter-estimate-rules/1508197808.jpeg",
+			"tax":55
+		},
+		{
+			"id": 3,
+			"name": "Turboprop",
+			"seats": 7,
+			"price": 14800,
+			"date": "2018-06-29",
+			"estimatedPrice": 0,
+			"orgCode": "BLSR",
+			"desCode": "BBSR",
+			"orgCity": "Balasore",
+			"desCity": "Bhubaneswar",
+			"orgAirport": "FakirMohan Airport",
+			"desAirport": "Biju pattanayak International Airport",
+			"depLat": 25.795865,
+			"depLon": -80.28704570000002,
+			"aircraftThumbnail": "https://brs-apartments.s3.amazonaws.com/blade/production/charter-estimate-rules/1508197808.jpeg",
+			"tax":55
+		}
+	]
 	"userFlightHistory":[
 		{	
 			"userId":4,
@@ -62,4 +120,5 @@
 			"Guests": 10
 		}
 	]
+	
 }

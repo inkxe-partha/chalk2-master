@@ -106,7 +106,7 @@
 			"orgCity": "Miami",
 			"desCity": "New York",
 			"orgAirport": "Miami International Airport",
-			"desAirport": "John F. Kennedy International Airport",
+			"desAirport": "John F. Kennedy Airport",
 			"total": 1675
 		},
 		{	
@@ -122,7 +122,7 @@
 			"desCode": "MIA",
 			"orgCity": "New York",
 			"desCity": "Miami",
-			"orgAirport": "John F. Kennedy International Airport",
+			"orgAirport": "John F. Kennedy Airport",
 			"desAirport": "Miami International Airport ",
 			"total": 4000
 		}

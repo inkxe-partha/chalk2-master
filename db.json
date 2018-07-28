@@ -1,6 +1,5 @@
 {
-	"charteredFlights": [
-		{
+	"charteredFlights": [{
 			"id": 1,
 			"name": "Turboprop",
 			"seats": 7,
@@ -14,7 +13,7 @@
 			"depLat": 25.795865,
 			"depLon": -80.28704570000002,
 			"aircraftThumbnail": "https://brs-apartments.s3.amazonaws.com/blade/production/charter-estimate-rules/1508197808.jpeg",
-			"tax":55
+			"tax": 55
 		},
 		{
 			"id": 2,
@@ -30,11 +29,10 @@
 			"depLat": 25.795865,
 			"depLon": -80.28704570000002,
 			"aircraftThumbnail": "https://brs-apartments.s3.amazonaws.com/blade/production/charter-estimate-rules/1508196913.jpeg",
-			"tax":70
+			"tax": 70
 		}
 	],
-	"optionalChartedFlight":[
-		{
+	"optionalChartedFlight": [{
 			"id": 1,
 			"name": "Light Jet",
 			"seats": 7,
@@ -44,15 +42,15 @@
 			"orgCode": "CTC",
 			"desCode": "RKL",
 			"orgCity": "Cuttack",
-		   	"desCity": "Rourkela",
+			"desCity": "Rourkela",
 			"orgAirport": "Barabati Airport",
 			"desAirport": "Rourkela Airport",
 			"depLat": 25.795865,
 			"depLon": -80.28704570000002,
 			"aircraftThumbnail": "https://brs-apartments.s3.amazonaws.com/blade/production/charter-estimate-rules/1508196913.jpeg",
-			"tax":70
-			
-		    
+			"tax": 70
+
+
 		},
 		{
 			"id": 2,
@@ -70,7 +68,7 @@
 			"depLat": 25.795865,
 			"depLon": -80.28704570000002,
 			"aircraftThumbnail": "https://brs-apartments.s3.amazonaws.com/blade/production/charter-estimate-rules/1508197808.jpeg",
-			"tax":55
+			"tax": 55
 		},
 		{
 			"id": 3,
@@ -88,12 +86,11 @@
 			"depLat": 25.795865,
 			"depLon": -80.28704570000002,
 			"aircraftThumbnail": "https://brs-apartments.s3.amazonaws.com/blade/production/charter-estimate-rules/1508197808.jpeg",
-			"tax":55
+			"tax": 55
 		}
 	],
-	"userFlightHistory":[
-		{	
-			"userId":4,
+	"userFlightHistory": [{
+			"userId": 4,
 			"departure": "06:00 AM",
 			"arrival": "08:56 AM",
 			"date": "24th May 2018",
@@ -107,11 +104,26 @@
 			"desCity": "New York",
 			"orgAirport": "Miami International Airport",
 			"desAirport": "John F. Kennedy Airport",
-			"total": 1675
-			
+			"total": 1675,
+			"passanger": 3,
+			"status": "c",
+			"passengerinfo": [{
+				"name": "Partha Sarathi",
+				"age": 25,
+				"wt": 67
+			}, {
+				"name": "Hari Krishna",
+				"age": 37,
+				"wt": 85
+			}, {
+				"name": "John Desouza",
+				"age": 27,
+				"wt": 70
+			}]
+
 		},
-		{	
-			"userId":4,
+		{
+			"userId": 4,
 			"departure": "08:00 PM",
 			"arrival": "10:56 PM",
 			"date": "26th May 2018",
@@ -125,12 +137,51 @@
 			"desCity": "Miami",
 			"orgAirport": "John F. Kennedy Airport",
 			"desAirport": "Miami International Airport ",
-			"total": 4000
+			"total": 4000,
+			"passanger": 3,
+			"status": "c",
+			"passengerinfo": [{
+				"name": "Partha Sarathi",
+				"age": 25,
+				"wt": 67
+			}, {
+				"name": "Hari Krishna",
+				"age": 37,
+				"wt": 85
+			}, {
+				"name": "John Desouza",
+				"age": 27,
+				"wt": 70
+			}]
+		},
+		{
+			"userId": 4,
+			"departure": "07:00 AM",
+			"arrival": "09:56 AM",
+			"date": "24th Dec 2018",
+			"aircraftThumbnail": "http://img.aeroexpo.online/images_ar/photo-g/171523-10551742.jpg",
+			"seats": 3,
+			"price": 500,
+			"aircraftInfo": "Turbo Prop",
+			"orgCode": "MIA",
+			"desCode": "JFK",
+			"orgCity": "Miami",
+			"desCity": "New York",
+			"orgAirport": "Miami International Airport",
+			"desAirport": "John F. Kennedy Airport",
+			"total": 3000,
+			"passanger": 3,
+			"status": "p",
+			"passengerinfo": [{
+				"name": "Partha Sarathi",
+				"age": 25,
+				"wt": 67
+			}]
+
 		}
 	],
-	"userYachtHistory":[
-		{
-			"userId":4,
+	"userYachtHistory": [{
+			"userId": 4,
 			"name": "120 TECNOMAR",
 			"thumbnail": "https://image.yachtcharterfleet.com/charter-CLOUD-9/CLOUD-9-1.jpg?image_id=519748&k=3f0e&w=973&h=470&q=95&o=wc",
 			"location": "Miami FL",
@@ -138,7 +189,7 @@
 			"Guests": 10
 		},
 		{
-			"userId":4,
+			"userId": 4,
 			"name": "120 TECNOMAR",
 			"thumbnail": "https://image.yachtcharterfleet.com/charter-CLOUD-9/CLOUD-9-1.jpg?image_id=519748&k=3f0e&w=973&h=470&q=95&o=wc",
 			"location": "Miami FL",
@@ -146,5 +197,5 @@
 			"Guests": 5
 		}
 	]
-	
+
 }
